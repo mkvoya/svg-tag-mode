@@ -307,6 +307,7 @@ string as argument and returns a SVG tag."
   (cursor-sensor-mode -1)
   (font-lock-flush))
 
+;;;###autoload
 (define-minor-mode svg-tag-mode
   "Minor mode for graphical tag as rounded box."
   :group 'svg-tag
